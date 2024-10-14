@@ -20,6 +20,27 @@ body {
     max-height: 40px;
 }
 
-.middle {}
+.middle .nav-links {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
 
-.right {}
+.middle .nav-links li {
+    margin: 0 10px;
+}
+
+.middle .nav-links a {
+    color: white;
+    font-size: 14pt;
+    text-decoration: none;
+}
+
+.right .styled-link {
+    background-color: #007bff;
+    color: white;
+    border-radius: 25px;
+    padding: 10px 20px;
+    text-decoration: none;
+}
