@@ -16,7 +16,9 @@ body {
     justify-content: center;
 }
 
-.left {}.
+.left .logo {
+    max-height: 40px;
+}
 
 .middle {}
 
